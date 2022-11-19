@@ -1,0 +1,46 @@
+.card {
+    max-width: 15rem;
+    background-color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: all .3s ease-in-out;
+    min-height: 24.5rem;
+}
+.card:hover {
+    transform: translate(10px, -10px);
+    box-shadow: -10px 10px #000;
+}
+.card-body {
+    padding: 1rem;
+    min-height: 24.5rem;
+}
+.card-author {
+    margin: 0;
+    font-size: .7rem;
+    font-family: 'Source Code Pro', monospace;
+}
+.author-category {
+    padding: .3rem;
+    background-color: #000;
+    color: #fff;
+}
+.card-title, .card-text {
+    margin: .4rem 0 .4rem 0;
+}
+.card-sep {
+    width: 100%;
+    margin: .5rem 0 .5rem 0;
+    border-top: 1px solid #DBDCE0;
+}
+.card-imgBorder {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-img {
+    width: 111px;
+    margin: auto;
+}
