@@ -17,7 +17,9 @@ function Home() {
 
   return (
       <section className="konyvek-section">
-        <h1 className="section-title">Könyvek</h1>
+        <div className='header'>
+          <h1 className="section-title">Könyvek</h1>
+        </div>
         <div className="konyvek">
           {(typeof konyvekData === 'undefined') ? (
             <p>Loading...</p>

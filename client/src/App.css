@@ -30,6 +30,27 @@ body {
   color: #10162F;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-btn {
+  padding: .5rem 1rem; 
+  background-color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+  color: #10162F;
+}
+.new-btn:hover {
+  transform: translate(5px, -5px);
+  box-shadow: -5px 5px #000;
+}
+
 @media screen and (max-width: 1200px) {
   .konyvek {
     max-width: 100%;

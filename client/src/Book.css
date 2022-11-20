@@ -1,0 +1,30 @@
+.book-header {
+    display: block;
+    background: rgba(255,255,255,0);
+    background-image: url(//d9hhrg4mnvzow.cloudfront.net/join.codecademy.com/learn/paths/front-end-engineer-career-path/1d9a767d-dark-hero-bg_11hc0ln000000000000028.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    width: calc(100% + 10rem);
+    height: 590px;
+    position: relative;
+    margin-left: -5rem;
+    margin-right: -5rem;
+}
+.book-content {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 590px;
+}
+
+.book-title {
+    color: #fff;
+}

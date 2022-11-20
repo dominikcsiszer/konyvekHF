@@ -1,3 +1,4 @@
+import '../Book.css'
 
 import React, {useEffect, useState} from 'react'
 import { useParams } from 'react-router-dom'
@@ -18,7 +19,14 @@ function Book() {
     },[])
 
   return (
-    <Konyv id={konyvekData[0].id} title={konyvekData[0].title} category={konyvekData[0].category} author={konyvekData[0].author} description={konyvekData[0].description} img={konyvekData[0].img} />
+    <div className='book-header'>
+      <div className='book-content'>
+        <h1 className='book-title'>{konyvekData[0].title}</h1>
+        <h1 className='book-title'>{konyvekData[0].title}</h1>
+
+      </div>
+    </div>
+    // <Konyv id={konyvekData[0].id} title={konyvekData[0].title} category={konyvekData[0].category} author={konyvekData[0].author} description={konyvekData[0].description} img={konyvekData[0].img} />
   );
 }
 

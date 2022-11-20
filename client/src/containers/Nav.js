@@ -9,7 +9,7 @@ function Nav() {
                 <h1 className="nav-logo"><span>könyves</span>bolt</h1>
                 <ul className="nav-links">
                     <li className="nav-item"><a className="nav-link" href="/">Főoldal</a></li>
-                    <li className="nav-item"><a className="nav-link" href="/">Admin</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/admin">Admin</a></li>
                 </ul>
             </div>
             <div className="nav-section">
